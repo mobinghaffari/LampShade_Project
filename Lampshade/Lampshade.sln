@@ -7,13 +7,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShopManagement", "ShopManag
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Domain", "SM.Domain", "{37014D7C-B19E-43F2-A8A7-AFD4674B2D2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Domain", "ShopManagement.Domain\ShopManagement.Domain.csproj", "{ABEAE2C9-A690-4C12-9C2E-C33A2DA85A2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Domain", "ShopManagement.Domain\ShopManagement.Domain.csproj", "{ABEAE2C9-A690-4C12-9C2E-C33A2DA85A2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_Framework", "0_Farmework\0_Framework.csproj", "{F970B172-B72F-4AE7-8269-95E2D91941E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0_Framework", "0_Farmework\0_Framework.csproj", "{F970B172-B72F-4AE7-8269-95E2D91941E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Application", "SM.Application", "{76137700-2C41-4276-BCDB-EC3CFB93F85E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Application.Contarcts", "ShopManagement.Application.Contarcts\ShopManagement.Application.Contarcts.csproj", "{B4F1F525-41AC-4303-A328-09AB472BBA30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Application.Contarcts", "ShopManagement.Application.Contarcts\ShopManagement.Application.Contarcts.csproj", "{B4F1F525-41AC-4303-A328-09AB472BBA30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Application", "ShopManagment.Application\ShopManagement.Application.csproj", "{C1E2CF19-63EE-4B07-8864-58D339ED7483}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Infrastructure", "SM.Infrastructure", "{8526703E-01A5-4F73-A88A-AA079E022C9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Infrastructure.EFCore", "ShopManagement.Infrastructure.EFCore\ShopManagement.Infrastructure.EFCore.csproj", "{338D705F-C8E0-4A45-B4A4-E0ADF388EC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Configuration", "ShopManagement.Configuration\ShopManagement.Configuration.csproj", "{61E06620-EA89-4369-BBF0-4BBC4152AC94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost", "ServiceHostt\ServiceHost.csproj", "{76744A1B-E3BD-42AB-BBD4-3A756F2CF16B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,22 @@ Global
 		{B4F1F525-41AC-4303-A328-09AB472BBA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4F1F525-41AC-4303-A328-09AB472BBA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4F1F525-41AC-4303-A328-09AB472BBA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E2CF19-63EE-4B07-8864-58D339ED7483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E2CF19-63EE-4B07-8864-58D339ED7483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E2CF19-63EE-4B07-8864-58D339ED7483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E2CF19-63EE-4B07-8864-58D339ED7483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{338D705F-C8E0-4A45-B4A4-E0ADF388EC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338D705F-C8E0-4A45-B4A4-E0ADF388EC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338D705F-C8E0-4A45-B4A4-E0ADF388EC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338D705F-C8E0-4A45-B4A4-E0ADF388EC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E06620-EA89-4369-BBF0-4BBC4152AC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E06620-EA89-4369-BBF0-4BBC4152AC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E06620-EA89-4369-BBF0-4BBC4152AC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E06620-EA89-4369-BBF0-4BBC4152AC94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76744A1B-E3BD-42AB-BBD4-3A756F2CF16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76744A1B-E3BD-42AB-BBD4-3A756F2CF16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76744A1B-E3BD-42AB-BBD4-3A756F2CF16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76744A1B-E3BD-42AB-BBD4-3A756F2CF16B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +68,10 @@ Global
 		{ABEAE2C9-A690-4C12-9C2E-C33A2DA85A2B} = {37014D7C-B19E-43F2-A8A7-AFD4674B2D2B}
 		{76137700-2C41-4276-BCDB-EC3CFB93F85E} = {FA737DA4-C089-4236-8CBF-D1F846034F2D}
 		{B4F1F525-41AC-4303-A328-09AB472BBA30} = {76137700-2C41-4276-BCDB-EC3CFB93F85E}
+		{C1E2CF19-63EE-4B07-8864-58D339ED7483} = {76137700-2C41-4276-BCDB-EC3CFB93F85E}
+		{8526703E-01A5-4F73-A88A-AA079E022C9B} = {FA737DA4-C089-4236-8CBF-D1F846034F2D}
+		{338D705F-C8E0-4A45-B4A4-E0ADF388EC0A} = {8526703E-01A5-4F73-A88A-AA079E022C9B}
+		{61E06620-EA89-4369-BBF0-4BBC4152AC94} = {8526703E-01A5-4F73-A88A-AA079E022C9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0FC52745-EE8C-46A9-A92F-66DBFDBA4D46}

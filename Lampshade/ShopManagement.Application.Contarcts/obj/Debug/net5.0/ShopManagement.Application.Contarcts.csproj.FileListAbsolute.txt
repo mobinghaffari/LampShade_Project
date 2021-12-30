@@ -1,0 +1,15 @@
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\bin\Debug\net5.0\ShopManagement.Application.Contarcts.deps.json
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\bin\Debug\net5.0\ShopManagement.Application.Contarcts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\bin\Debug\net5.0\ref\ShopManagement.Application.Contarcts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\bin\Debug\net5.0\ShopManagement.Application.Contarcts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\bin\Debug\net5.0\0_Framework.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\bin\Debug\net5.0\0_Framework.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ShopManagement.Application.Contarcts.csproj.AssemblyReference.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ShopManagement.Application.Contarcts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ShopManagement.Application.Contarcts.AssemblyInfoInputs.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ShopManagement.Application.Contarcts.AssemblyInfo.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ShopManagement.Application.Contarcts.csproj.CoreCompileInputs.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ShopManagement.Application.Contarcts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ref\ShopManagement.Application.Contarcts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ShopManagement.Application.Contarcts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ShopManagement.Application.Contarcts.csproj.CopyComplete

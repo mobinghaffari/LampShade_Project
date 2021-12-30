@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mobin\\source\\repos\\Lampshade\\0_Farmework\\0_Framework.csproj": {}
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mobin\\source\\repos\\Lampshade\\0_Farmework\\0_Framework.csproj": {
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\source\\repos\\Lampshade\\0_Farmework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "C:\\Users\\Mobin\\source\\repos\\Lampshade\\0_Farmework\\0_Framework.csproj",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\source\\repos\\Lampshade\\0_Farmework\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
