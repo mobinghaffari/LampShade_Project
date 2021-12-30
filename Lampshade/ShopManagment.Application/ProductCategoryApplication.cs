@@ -39,10 +39,10 @@ namespace ShopManagement.Application
             var productCategory = _productCategoryRepository.Get(command.Id);
 
             if (productCategory == null)
-                return operation.Failed("رکورد با اطلاعات درخواست شده یافت نشد لطفا مججد تلاش بفرمایید ");
+                return operation.Failed(ApplicationMessages.RecordNotFound);
 
             if (_productCategoryRepository.Exists(x => x.Name == command.Name && x.Id == command.Id))
-                return operation.Failed("رکورد با اطلاعات درخواست شده یافت نشد لطفا مججد تلاش بفرمایید ");
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
             productCategory.Edit(command.Name, command.Description, command.Picture,
