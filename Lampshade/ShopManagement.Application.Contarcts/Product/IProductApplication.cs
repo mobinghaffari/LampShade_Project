@@ -11,10 +11,10 @@ namespace ShopManagement.Application.Contarcts.Product
     {
         OperationResult Create(CreateProduct command);
         OperationResult Edit(EditProduct command);
-        OperationResult IsStock(long id);
+        OperationResult IsInStock(long id);
         OperationResult NotInStock (long id);       
         List<ProductViewModel>Search(ProductSearchModel searchModel);
-        EditProduct GetDetails(long id); 
-
+        EditProduct GetDetails(long id);
+        List<ProductViewModel> GetProducts();
     };
 }

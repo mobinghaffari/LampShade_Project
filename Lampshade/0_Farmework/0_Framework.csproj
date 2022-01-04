@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>_0_Farmework</RootNamespace>
+    <RootNamespace>_0_Framework</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

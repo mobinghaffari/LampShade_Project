@@ -12,4 +12,3 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ShopManagement.Application.Contarcts.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ref\ShopManagement.Application.Contarcts.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ShopManagement.Application.Contarcts.pdb
-C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contarcts\obj\Debug\net5.0\ShopManagement.Application.Contarcts.csproj.CopyComplete

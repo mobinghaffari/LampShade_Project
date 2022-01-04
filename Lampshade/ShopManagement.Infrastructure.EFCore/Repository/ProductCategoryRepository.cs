@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 using _0_Framework.Infrastructure;
 using ShopManagement.Application.Contarcts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
@@ -16,6 +14,16 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
         {
             _context = context;
         }
+
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _context.ProductCategories.Select(x => new ProductCategoryViewModel
+            {
+                 Id = x.Id,
+                 Name = x.Name
+            }).ToList();
+        }
+
         public EditProductCategory GetDetails(long id)
         {
             return _context.ProductCategories.Select(x => new EditProductCategory()

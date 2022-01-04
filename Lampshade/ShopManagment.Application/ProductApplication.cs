@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using _0_Framework.Application;
 using ShopManagement.Application.Contarcts.Product;
 using ShopManagement.Domain.ProductAgg;
@@ -52,7 +47,7 @@ namespace ShopManagement.Application
             return operation.Succeeded();
         }
 
-        public OperationResult IsStock(long id)
+        public OperationResult IsInStock(long id)
         {
             var operation = new OperationResult();
             var product = _productRepository.Get(id);
@@ -83,7 +78,12 @@ namespace ShopManagement.Application
 
         public EditProduct GetDetails(long id)
         {
-            return _productRepository.GetDetail(id);
+            return _productRepository.GetDetails(id);
+        }
+
+        public List<ProductViewModel> GetProducts()
+        {
+            return _productRepository.GetProducts();
         }
     }
 }
