@@ -171,3 +171,6 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductPictures\Create.cshtml.g.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductPictures\Edit.cshtml.g.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\ProductPictures\Index.cshtml.g.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slides\Create.cshtml.g.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slides\Edit.cshtml.g.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Slides\Index.cshtml.g.cs

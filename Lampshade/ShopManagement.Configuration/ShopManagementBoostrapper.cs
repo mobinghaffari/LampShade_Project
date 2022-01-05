@@ -4,9 +4,11 @@ using ShopManagement.Application;
 using ShopManagement.Application.Contarcts.Product;
 using ShopManagement.Application.Contarcts.ProductCategory;
 using ShopManagement.Application.Contarcts.ProductPicture;
+using ShopManagement.Application.Contarcts.Slide;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
+using ShopManagement.Domain.SliderAgg;
 using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
 
@@ -24,6 +26,10 @@ namespace ShopManagement.Configuration
 
             services.AddTransient<IProductPictureApplication, ProductPictureApplication>();
             services.AddTransient<IProductPictureRepository, ProductPictureRepository>();
+
+            services.AddTransient<ISlideApplication, SlideApplication>();
+            services.AddTransient<ISlideRepository, SlideRepository>();
+
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(ConnectionString));
 
         }
