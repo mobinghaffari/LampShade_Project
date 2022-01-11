@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DiscountManagement.Configuration;
 using ShopManagement.Configuration;
 
 namespace ServiceHost
@@ -26,10 +27,11 @@ namespace ServiceHost
         {
             var connectionString = Configuration.GetConnectionString("LampShadeDb");
             ShopManagementBoostrapper.Configure(services, connectionString);
+            DiscountManagementBootstrapper.Configure(services,connectionString);
             services.AddRazorPages();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline. 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

@@ -20,7 +20,8 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Configuration\obj\Debug\ne
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
-C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csproj.CopyComplete
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.runtimeconfig.json
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.runtimeconfig.dev.json
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.genruntimeconfig.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampshadeQuery.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampshadeQuery.pdb

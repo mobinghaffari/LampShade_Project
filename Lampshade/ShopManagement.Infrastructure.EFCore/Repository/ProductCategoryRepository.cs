@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using ShopManagement.Application.Contarcts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
@@ -49,7 +50,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                     Id = x.Id,
                     Picture = x.Picture,
                     Name = x.Name,
-                    CreationDate = x.CreationDate.ToString()
+                    CreationDate = x.CreationDate.ToFarsi()
                 });
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
             {
