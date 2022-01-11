@@ -191,3 +191,6 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\bin\Debug\net5.0\DiscountMan
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Create.cshtml.g.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Edit.cshtml.g.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Index.cshtml.g.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Create.cshtml.g.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Edit.cshtml.g.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Index.cshtml.g.cs
