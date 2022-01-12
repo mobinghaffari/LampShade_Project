@@ -19,3 +19,4 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Infrastructure.EFCore\obj\
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.EFCore.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.genruntimeconfig.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.csproj.CopyComplete

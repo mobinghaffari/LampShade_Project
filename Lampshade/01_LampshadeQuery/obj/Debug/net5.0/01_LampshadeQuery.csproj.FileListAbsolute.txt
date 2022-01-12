@@ -18,3 +18,4 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_Lam
 C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\ref\01_LampshadeQuery.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.csproj.CopyComplete

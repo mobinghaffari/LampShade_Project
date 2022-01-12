@@ -194,3 +194,13 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Create.cshtml.g.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Edit.cshtml.g.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\ColleagueDiscounts\Index.cshtml.g.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\bin\Debug\net5.0\InventoryManagement.Domain.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\bin\Debug\net5.0\InventoryManagement.Application.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHostt\bin\Debug\net5.0\InventoryManagement.Application.pdb
