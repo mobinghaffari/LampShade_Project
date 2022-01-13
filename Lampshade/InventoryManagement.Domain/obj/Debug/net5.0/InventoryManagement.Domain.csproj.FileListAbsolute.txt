@@ -11,7 +11,9 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Domain\obj\Debug\net5
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.AssemblyInfoInputs.cache
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.AssemblyInfo.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.csproj.CopyComplete
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Domain\obj\Debug\net5.0\ref\InventoryManagement.Domain.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contarcts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contarcts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.csproj.CopyComplete

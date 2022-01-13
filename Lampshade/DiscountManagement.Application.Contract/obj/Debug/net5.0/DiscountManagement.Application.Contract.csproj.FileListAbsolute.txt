@@ -14,3 +14,4 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application.Contract\o
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contarcts.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contarcts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CopyComplete

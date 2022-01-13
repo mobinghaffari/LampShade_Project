@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace InventoryManagement.Infrastructure.EFCore.Mapping
 {
-    public class InventoryMapping:IEntityTypeConfiguration<Inventory>
+    public class InventoryMapping : IEntityTypeConfiguration<Inventory>
     {
         public void Configure(EntityTypeBuilder<Inventory> builder)
         {
@@ -13,8 +13,8 @@ namespace InventoryManagement.Infrastructure.EFCore.Mapping
 
             builder.OwnsMany(x => x.Operations, modelBuilder =>
             {
-                modelBuilder.ToTable("InventoryOperations");
                 modelBuilder.HasKey(x => x.Id);
+                modelBuilder.ToTable("InventoryOperations");
                 modelBuilder.Property(x => x.Description).HasMaxLength(1000);
                 modelBuilder.WithOwner(x => x.Inventory).HasForeignKey(x => x.InventoryId);
             });

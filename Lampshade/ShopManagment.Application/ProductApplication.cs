@@ -19,7 +19,7 @@ namespace ShopManagement.Application
             if (_productRepository.Exists(x => x.Name == command.Name))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
             var slug = command.Slug.Slugify();
-            var product=new Product(command.Name,command.Code,command.UnitPrice,command.ShortDescription,
+            var product=new Product(command.Name,command.Code,command.ShortDescription,
                 command.Description,command.Picture,command.PictureAlt,command.PictureTitle,command.CategoryId,
                 slug,command.Keywords,command.MetaDescription);
             _productRepository.Create(product);
@@ -39,34 +39,10 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
-            product.Edit(command.Name, command.Code, command.UnitPrice, command.ShortDescription,
+            product.Edit(command.Name, command.Code, command.ShortDescription,
                 command.Description, command.Picture, command.PictureAlt, command.PictureTitle, command.CategoryId,
                 slug, command.Keywords, command.MetaDescription);
             
-            _productRepository.SaveChanges();
-            return operation.Succeeded();
-        }
-
-        public OperationResult IsInStock(long id)
-        {
-            var operation = new OperationResult();
-            var product = _productRepository.Get(id);
-
-            if (product == null)
-                return operation.Failed(ApplicationMessages.RecordNotFound);
-            product.InStock();
-            _productRepository.SaveChanges();
-            return operation.Succeeded();
-        }
-
-        public OperationResult NotInStock(long id)
-        {
-            var operation=new OperationResult();
-            var product = _productRepository.Get(id);
-
-            if (product == null)
-                return operation.Failed(ApplicationMessages.RecordNotFound);
-            product.NotInStock();
             _productRepository.SaveChanges();
             return operation.Succeeded();
         }

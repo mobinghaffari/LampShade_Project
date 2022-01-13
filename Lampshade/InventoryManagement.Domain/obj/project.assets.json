@@ -187,13 +187,27 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "0_Framework": "1.0.0"
+          "0_Framework": "1.0.0",
+          "ShopManagement.Application.Contarcts": "1.0.0"
         },
         "compile": {
           "bin/placeholder/InventoryManagement.Application.Contract.dll": {}
         },
         "runtime": {
           "bin/placeholder/InventoryManagement.Application.Contract.dll": {}
+        }
+      },
+      "ShopManagement.Application.Contarcts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShopManagement.Application.Contarcts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopManagement.Application.Contarcts.dll": {}
         }
       }
     }
@@ -594,6 +608,11 @@
       "type": "project",
       "path": "../InventoryManagement.Application.Contract/InventoryManagement.Application.Contract.csproj",
       "msbuildProject": "../InventoryManagement.Application.Contract/InventoryManagement.Application.Contract.csproj"
+    },
+    "ShopManagement.Application.Contarcts/1.0.0": {
+      "type": "project",
+      "path": "../ShopManagement.Application.Contarcts/ShopManagement.Application.Contarcts.csproj",
+      "msbuildProject": "../ShopManagement.Application.Contarcts/ShopManagement.Application.Contarcts.csproj"
     }
   },
   "projectFileDependencyGroups": {

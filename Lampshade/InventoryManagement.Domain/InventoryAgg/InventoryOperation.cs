@@ -14,6 +14,7 @@ namespace InventoryManagement.Domain.InventoryAgg
         public long OrderId { get; private set; }
         public long InventoryId { get; private set; }
         public Inventory Inventory { get; private set; }
+        protected InventoryOperation() { }
 
         public InventoryOperation(bool operation, long count, long operatorId, long currentCount,
             string description, long orderId, long inventoryId)
@@ -25,6 +26,7 @@ namespace InventoryManagement.Domain.InventoryAgg
             Description = description;
             OrderId = orderId;
             InventoryId = inventoryId;
+            OperationDate = DateTime.Now;
         }
     }
 }

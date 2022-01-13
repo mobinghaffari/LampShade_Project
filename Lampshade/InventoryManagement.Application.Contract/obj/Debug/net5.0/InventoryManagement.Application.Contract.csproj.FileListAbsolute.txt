@@ -12,3 +12,5 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Application.Contract\
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Application.Contract\obj\Debug\net5.0\ref\InventoryManagement.Application.Contract.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contarcts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contarcts.pdb

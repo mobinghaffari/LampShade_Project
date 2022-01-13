@@ -158,7 +158,8 @@
       },
       "InventoryManagement.Application.Contract/1.0.0": {
         "dependencies": {
-          "0_Framework": "1.0.0"
+          "0_Framework": "1.0.0",
+          "ShopManagement.Application.Contarcts": "1.0.0"
         },
         "runtime": {
           "InventoryManagement.Application.Contract.dll": {}
@@ -172,6 +173,14 @@
         },
         "runtime": {
           "InventoryManagement.Domain.dll": {}
+        }
+      },
+      "ShopManagement.Application.Contarcts/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "runtime": {
+          "ShopManagement.Application.Contarcts.dll": {}
         }
       }
     }
@@ -298,6 +307,11 @@
       "sha512": ""
     },
     "InventoryManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShopManagement.Application.Contarcts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

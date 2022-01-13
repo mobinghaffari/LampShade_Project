@@ -526,6 +526,9 @@
             "projectReferences": {
               "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj": {
                 "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj"
+              },
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj"
               }
             }
           }

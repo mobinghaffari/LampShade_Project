@@ -173,6 +173,19 @@
         "runtime": {
           "bin/placeholder/0_Framework.dll": {}
         }
+      },
+      "ShopManagement.Application.Contarcts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShopManagement.Application.Contarcts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopManagement.Application.Contarcts.dll": {}
+        }
       }
     }
   },
@@ -537,11 +550,17 @@
       "type": "project",
       "path": "../0_Farmework/0_Framework.csproj",
       "msbuildProject": "../0_Farmework/0_Framework.csproj"
+    },
+    "ShopManagement.Application.Contarcts/1.0.0": {
+      "type": "project",
+      "path": "../ShopManagement.Application.Contarcts/ShopManagement.Application.Contarcts.csproj",
+      "msbuildProject": "../ShopManagement.Application.Contarcts/ShopManagement.Application.Contarcts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "0_Framework >= 1.0.0"
+      "0_Framework >= 1.0.0",
+      "ShopManagement.Application.Contarcts >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -581,6 +600,9 @@
           "projectReferences": {
             "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj": {
               "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj"
+            },
+            "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj": {
+              "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj"
             }
           }
         }

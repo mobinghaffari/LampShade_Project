@@ -13,9 +13,9 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application\obj\Debug\
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfoInputs.cache
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfo.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.CoreCompileInputs.cache
-C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.CopyComplete
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application\obj\Debug\net5.0\ref\DiscountManagement.Application.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contarcts.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contarcts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.CopyComplete

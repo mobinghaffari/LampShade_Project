@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using _0_Framework.Domain;
+using System.Collections.Generic;
 using System.Linq;
-using _0_Framework.Domain;
 
 namespace InventoryManagement.Domain.InventoryAgg
 {
@@ -17,6 +17,7 @@ namespace InventoryManagement.Domain.InventoryAgg
             UnitPrice = unitPrice;
             InStock = false;
         }
+
         public void Edit(long productId, double unitPrice)
         {
             ProductId = productId;
@@ -26,25 +27,30 @@ namespace InventoryManagement.Domain.InventoryAgg
         public long CalculateCurrentCount()
         {
             var plus = Operations.Where(x => x.Operation).Sum(x => x.Count);
-            var min = Operations.Where(x => !x.Operation).Min(x => x.Count);
-            return plus - min;
+            var minus = Operations.Where(x => !x.Operation).Sum(x => x.Count);
+            return plus - minus;
         }
 
         public void Increase(long count, long operatorId, string description)
         {
             var currentCount = CalculateCurrentCount() + count;
             var operation = new InventoryOperation(true, count, operatorId, currentCount, description, 0, Id);
-            this.Operations.Add(operation);
+            Operations.Add(operation);
+
+            //if (currentCount > 0)
+            //    InStock = true;
+            //else
+            //    InStock = false;
+
             InStock = currentCount > 0;
         }
 
         public void Reduce(long count, long operatorId, string description, long orderId)
         {
-            var currentCount =
-                CalculateCurrentCount() - count;
+            var currentCount = CalculateCurrentCount() - count;
             var operation = new InventoryOperation(false, count, operatorId, currentCount, description, orderId, Id);
-            this.Operations.Add(operation);
-            InStock = currentCount > 0; 
+            Operations.Add(operation);
+            InStock = currentCount > 0;
         }
     }
 }

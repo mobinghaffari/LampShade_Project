@@ -17,3 +17,5 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Appliction\obj\Debug\
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Appliction\obj\Debug\net5.0\InventoryManagement.Application.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Appliction\obj\Debug\net5.0\ref\InventoryManagement.Application.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Appliction\obj\Debug\net5.0\InventoryManagement.Application.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Appliction\bin\Debug\net5.0\ShopManagement.Application.Contarcts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Appliction\bin\Debug\net5.0\ShopManagement.Application.Contarcts.pdb

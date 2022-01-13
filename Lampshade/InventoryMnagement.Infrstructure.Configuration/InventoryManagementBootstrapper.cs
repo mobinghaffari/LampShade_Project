@@ -16,6 +16,6 @@ namespace InventoryManagement.Infrastructure.Configuration
             services.AddTransient<IInventoryApplication, InventoryApplication>();
 
             services.AddDbContext<InventoryContext>(x => x.UseSqlServer(connectionString));
-        }//part6 season14
+        }
     }
 }
