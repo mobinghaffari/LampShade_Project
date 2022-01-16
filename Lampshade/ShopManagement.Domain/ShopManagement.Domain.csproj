@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\0_Farmework\0_Framework.csproj" />
-    <ProjectReference Include="..\ShopManagement.Application.Contarcts\ShopManagement.Application.Contarcts.csproj" />
+    <ProjectReference Include="..\0_Framework\0_Framework.csproj" />
+    <ProjectReference Include="..\ShopManagement.Application.Contracts\ShopManagement.Application.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

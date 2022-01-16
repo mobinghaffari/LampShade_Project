@@ -34,6 +34,12 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              },
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj"
+              },
               "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
@@ -68,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj": {
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -110,9 +116,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.0-preview.6.20312.4, )"
             }
           },
           "imports": [
@@ -134,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj": {
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj",
-        "projectName": "ShopManagement.Application.Contarcts",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
+        "projectName": "DiscountManagement.Application.Contract",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -164,8 +178,515 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj"
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj"
+              },
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectName": "DiscountManagement.Domain",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj"
+              },
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "projectName": "DiscountManagement.Infrastructure.EFCore",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              },
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-preview.6.20312.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0-preview.6.20312.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0-preview.6.20312.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
+        "projectName": "InventoryManagement.Application.Contract",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryManagement.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj"
+              },
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectName": "InventoryManagement.Domain",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj"
+              },
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj",
+        "projectName": "InventoryMangement.Infrastructure.EFCore",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryMangement.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+              },
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-preview.6.20312.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0-preview.6.20312.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0-preview.6.20312.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectName": "ShopManagement.Application.Contracts",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application\\ShopManagement.Application.csproj",
+        "projectName": "ShopManagement.Application",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application\\ShopManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              },
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -231,14 +752,14 @@
               "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\01_LampshadeQuery\\01_LampshadeQuery.csproj": {
                 "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\01_LampshadeQuery\\01_LampshadeQuery.csproj"
               },
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj"
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              },
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application\\ShopManagement.Application.csproj"
               },
               "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
-              },
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagment.Application\\ShopManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagment.Application\\ShopManagement.Application.csproj"
               }
             }
           }
@@ -255,21 +776,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.0-preview.6.20312.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.0-preview.6.20312.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.13, )"
-            },
-            "Microsoft.Extensions.DependencyInjection.Abstractions": {
-              "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.0-preview.6.20312.4, )"
             }
           },
           "imports": [
@@ -321,11 +838,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj"
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj"
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -406,86 +923,19 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.0-preview.6.20312.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.0-preview.6.20312.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.0-preview.6.20312.4, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagment.Application\\ShopManagement.Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagment.Application\\ShopManagement.Application.csproj",
-        "projectName": "ShopManagement.Application",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagment.Application\\ShopManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagment.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj"
-              },
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",

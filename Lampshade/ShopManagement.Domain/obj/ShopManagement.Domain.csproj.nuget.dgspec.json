@@ -4,14 +4,14 @@
     "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj": {
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,9 +46,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.13, )"
+              "version": "[5.0.0-preview.6.20312.4, )"
             }
           },
           "imports": [
@@ -70,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj": {
+    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj",
-        "projectName": "ShopManagement.Application.Contarcts",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectName": "ShopManagement.Application.Contracts",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -100,8 +108,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj"
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -115,6 +123,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -164,11 +178,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Farmework\\0_Framework.csproj"
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contarcts\\ShopManagement.Application.Contarcts.csproj"
+              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }

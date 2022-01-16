@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using ShopManagement.Domain.SliderAgg;
+using ShopManagement.Domain.SlideAgg;
 
 namespace ShopManagement.Infrastructure.EFCore.Mapping
 {
-    public class SlideMapping:IEntityTypeConfiguration<Slide>
+    public class SlideMapping : IEntityTypeConfiguration<Slide>
     {
         public void Configure(EntityTypeBuilder<Slide> builder)
         {
