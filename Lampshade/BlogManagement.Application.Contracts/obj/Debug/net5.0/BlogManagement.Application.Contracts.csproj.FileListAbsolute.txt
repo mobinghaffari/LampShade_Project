@@ -1,0 +1,14 @@
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\bin\Debug\net5.0\BlogManagement.Application.Contracts.deps.json
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\bin\Debug\net5.0\ref\BlogManagement.Application.Contracts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.csproj.AssemblyReference.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.AssemblyInfo.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\Debug\net5.0\ref\BlogManagement.Application.Contracts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.pdb

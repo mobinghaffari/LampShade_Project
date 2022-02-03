@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShopManagement.Configuration;
 using System;
+using BlogManagement.Infrastructure.Configuration;
 
 namespace ServiceHost
 {
@@ -26,6 +27,7 @@ namespace ServiceHost
             ShopManagementBoostrapper.Configure(services, connectionString);
             DiscountManagementBootstrapper.Configure(services, connectionString);
             InventoryManagementBootstrapper.Configure(services, connectionString);
+            BlogManagementBootstrapper.Configure(services,connectionString);
 
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddRazorPages();
