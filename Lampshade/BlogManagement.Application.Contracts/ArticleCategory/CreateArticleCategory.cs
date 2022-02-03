@@ -6,7 +6,7 @@ namespace BlogManagement.Application.Contracts.ArticleCategory
 {
     public class CreateArticleCategory
     {
-        [Required(ErrorMessage = ValidationMessages.IsRequired)]
+        [Required(ErrorMessage = ValidationMessages. IsRequired)]
         public string Name { get;  set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]

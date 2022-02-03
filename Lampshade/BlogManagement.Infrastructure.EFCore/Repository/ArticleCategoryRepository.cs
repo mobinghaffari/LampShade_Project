@@ -23,6 +23,15 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
                 .FirstOrDefault(x => x.Id == id).Slug;
         }
 
+        public List<ArticleCategoryViewModel> GetArticleCategories()
+        {
+            return _context.ArticleCategories.Select(x => new ArticleCategoryViewModel
+            {
+                Id=x.Id,
+                Name = x.Name
+            }).ToList();
+        }
+
         public EditArticleCategory GetDetails(long id)
         {
             return _context.ArticleCategories.Select(x => new EditArticleCategory
