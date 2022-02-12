@@ -50,3 +50,4 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application\obj\Debug\net5
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ref\ShopManagement.Application.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csproj.CopyComplete

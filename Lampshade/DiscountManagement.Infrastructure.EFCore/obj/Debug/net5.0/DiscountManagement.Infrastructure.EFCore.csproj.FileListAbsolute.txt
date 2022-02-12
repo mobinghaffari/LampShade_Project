@@ -78,3 +78,4 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Infrastructure.EFCore\
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\DiscountManagement.Infrastructure.EFCore.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.genruntimeconfig.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csproj.CopyComplete

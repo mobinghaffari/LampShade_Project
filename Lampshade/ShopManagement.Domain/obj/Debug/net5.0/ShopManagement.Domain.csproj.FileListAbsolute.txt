@@ -44,3 +44,4 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\Sh
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CopyComplete

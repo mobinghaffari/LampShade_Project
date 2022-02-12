@@ -90,3 +90,4 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Infrastructure.Config
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.Configuration.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.genruntimeconfig.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.csproj.CopyComplete

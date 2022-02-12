@@ -18,7 +18,7 @@ namespace ServiceHost
         {
             Configuration = configuration;
         }
-
+        //part 10 first name
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)

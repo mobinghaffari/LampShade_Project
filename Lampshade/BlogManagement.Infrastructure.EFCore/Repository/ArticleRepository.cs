@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using _0_Framework.Application;
@@ -49,7 +50,7 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
                 Category = x.Category.Name,
                 Picture = x.Picture,
                 PublishDate = x.PublishDate.ToFarsi(),
-                ShortDescription = x.ShortDescription,
+                ShortDescription = x.ShortDescription.Substring(0,Math.Min(x.ShortDescription.Length,50))+"...",
                 Title = x.Title
             });
             if (!string.IsNullOrWhiteSpace(searchModel.Title))

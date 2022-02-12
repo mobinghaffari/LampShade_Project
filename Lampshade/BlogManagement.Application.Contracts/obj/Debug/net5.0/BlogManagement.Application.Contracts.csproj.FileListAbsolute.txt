@@ -12,3 +12,4 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\
 C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\Debug\net5.0\ref\BlogManagement.Application.Contracts.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.csproj.CopyComplete

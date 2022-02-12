@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SBUImagS5o/f5Q9y1eT+dSutK6TD4zTpmismMxFk03z9iK42L5jwc35pW0Mt1iVqK6VWfY1u72O2H/cZ/Bdk2w==",
+  "dgSpecHash": "3x2tDA0JFLYMpAbrK/jRMwCexQgGCUZszFFd1ROKljuBLDmiip8UTuJPCpMdacpZls5Q4VU30X3Q/8uiPMJfOQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [
@@ -23,12 +23,12 @@
     "C:\\Users\\Mobin\\.nuget\\packages\\microsoft.extensions.options\\5.0.0-preview.3.20215.2\\microsoft.extensions.options.5.0.0-preview.3.20215.2.nupkg.sha512",
     "C:\\Users\\Mobin\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0-preview.3.20215.2\\microsoft.extensions.primitives.5.0.0-preview.3.20215.2.nupkg.sha512",
     "C:\\Users\\Mobin\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\Mobin\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Mobin\\.nuget\\packages\\system.collections.immutable\\5.0.0-preview.3.20214.6\\system.collections.immutable.5.0.0-preview.3.20214.6.nupkg.sha512",
     "C:\\Users\\Mobin\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0-preview.3.20214.6\\system.componentmodel.annotations.5.0.0-preview.3.20214.6.nupkg.sha512",
     "C:\\Users\\Mobin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0-preview.3.20214.6\\system.diagnostics.diagnosticsource.5.0.0-preview.3.20214.6.nupkg.sha512",
     "C:\\Users\\Mobin\\.nuget\\packages\\system.io.pipelines\\4.7.1\\system.io.pipelines.4.7.1.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+    "C:\\Users\\Mobin\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

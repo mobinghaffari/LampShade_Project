@@ -78,3 +78,4 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryMangement.Infrastructure.EFCore\
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\ref\InventoryMangement.Infrastructure.EFCore.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.genruntimeconfig.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\InventoryMangement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryMangement.Infrastructure.EFCore.csproj.CopyComplete

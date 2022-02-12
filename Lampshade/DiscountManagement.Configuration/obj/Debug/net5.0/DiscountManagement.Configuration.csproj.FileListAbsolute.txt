@@ -90,3 +90,4 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Configuration\obj\Debu
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\ref\DiscountManagement.Configuration.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.genruntimeconfig.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csproj.CopyComplete

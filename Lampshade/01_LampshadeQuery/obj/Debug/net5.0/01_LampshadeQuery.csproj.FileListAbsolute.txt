@@ -93,3 +93,10 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\Invent
 C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\ShopManagement.Domain.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Domain.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Domain.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.csproj.CopyComplete

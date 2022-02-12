@@ -430,7 +430,6 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\ServiceHost.
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\staticwebassets\ServiceHost.StaticWebAssets.Manifest.cache
-C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\staticwebassets\ServiceHost.StaticWebAssets.xml
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\scopedcss\bundle\ServiceHost.styles.css
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\ServiceHost.TagHelpers.input.cache
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\ServiceHost.TagHelpers.output.cache
@@ -654,3 +653,6 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\Articles\Create.cshtml.g.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\Articles\Edit.cshtml.g.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\Articles\Index.cshtml.g.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatestArticles\Default.cshtml.g.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Article.cshtml.g.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\ArticleCategory.cshtml.g.cs

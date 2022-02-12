@@ -38,3 +38,4 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contracts\obj\
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CopyComplete
