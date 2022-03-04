@@ -41,3 +41,9 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Infrastructure.Configurati
 C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Domain.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\CommentManagement.Domain.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\CommentManagement.Domain.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb

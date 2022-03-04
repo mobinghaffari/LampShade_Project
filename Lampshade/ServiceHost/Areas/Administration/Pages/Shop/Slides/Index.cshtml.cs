@@ -53,7 +53,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
         public IActionResult OnGetRemove(long id)
         {
             var result = _slideApplication.Remove(id);
-            if (result.IsSuccedded)
+            if (result.IsSucceeded)
                 return RedirectToPage("./Index");
 
             Message = result.Message;
@@ -63,7 +63,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
         public IActionResult OnGetRestore(long id)
         {
             var result = _slideApplication.Restore(id);
-            if (result.IsSuccedded)
+            if (result.IsSucceeded)
                 return RedirectToPage("./Index");
 
             Message = result.Message;

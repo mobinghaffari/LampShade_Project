@@ -100,3 +100,9 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogMa
 C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Domain.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.csproj.CopyComplete
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Domain.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\01_LampshadeQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb

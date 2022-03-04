@@ -14,34 +14,34 @@
 
 <body>
 
-    @await Component.InvokeAsync("Menu")
+@await Component.InvokeAsync("Menu")
 
-    @RenderBody()
+@RenderBody()
 
-    @await Component.InvokeAsync("Footer")
+@await Component.InvokeAsync("Footer")
 
 
-    <div class="search-overlay" id="search-overlay">
-        <a href="javascript:void(0)" class="close-search-overlay" id="close-search-overlay">
-            <i class="ion-ios-close-empty"></i>
-        </a>
-        <div class="search-form">
-            <form action="#">
-                <input type="search" placeholder="هرچه می خواهید در فروشگاه جستجو کنید ...">
-                <button type="submit">
-                    <i class="ion-android-search"></i>
-                </button>
-            </form>
-        </div>
+<div class="search-overlay" id="search-overlay">
+    <a href="javascript:void(0)" class="close-search-overlay" id="close-search-overlay">
+        <i class="ion-ios-close-empty"></i>
+    </a>
+    <div class="search-form">
+        <form action="#">
+            <input type="search" placeholder="هرچه می خواهید در فروشگاه جستجو کنید ...">
+            <button type="submit">
+                <i class="ion-android-search"></i>
+            </button>
+        </form>
     </div>
+</div>
 
 
-    <div id="scroll-top">
-        <span>برو بالا</span><i class="ion-chevron-right"></i><i class="ion-chevron-right"></i>
-    </div>
+<div id="scroll-top">
+    <span>برو بالا</span><i class="ion-chevron-right"></i><i class="ion-chevron-right"></i>
+</div>
     
-    <script src="~/Theme/assets/js/vendors.js"></script>
-    <script src="~/Theme/assets/js/active.js"></script>
+<script src="~/Theme/assets/js/vendors.js"></script>
+<script src="~/Theme/assets/js/active.js"></script>
 
 </body>
 

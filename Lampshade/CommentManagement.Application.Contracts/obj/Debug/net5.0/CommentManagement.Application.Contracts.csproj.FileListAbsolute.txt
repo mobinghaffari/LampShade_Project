@@ -1,0 +1,15 @@
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.AssemblyInfo.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\bin\Debug\net5.0\CommentManagement.Application.Contracts.deps.json
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\bin\Debug\net5.0\ref\CommentManagement.Application.Contracts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.AssemblyReference.cache
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.CopyComplete
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\ref\CommentManagement.Application.Contracts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\CommentManagement.Application.Contracts\obj\Debug\net5.0\CommentManagement.Application.Contracts.pdb

@@ -625,7 +625,6 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\ShopManageme
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\ServiceHost.Views.pdb
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\ServiceHost.csproj.CopyComplete
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
-C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Shop\Comments\Index.cshtml.g.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
@@ -656,3 +655,14 @@ C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatestArticles\Default.cshtml.g.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Article.cshtml.g.cs
 C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Pages\ArticleCategory.cshtml.g.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Comments\Index.cshtml.g.cs
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\CommentManagement.Domain.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.Configuration.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.Configuration.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\CommentManagement.Domain.pdb
+C:\Users\Mobin\Desktop\Atrya\Lampshade\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb

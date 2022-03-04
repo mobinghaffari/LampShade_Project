@@ -8,7 +8,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShopManagement.Configuration;
 using System;
+using System.Text.Encodings.Web;
 using BlogManagement.Infrastructure.Configuration;
+using System.Text.Unicode;
+using CommentManagement.Infrastructure.Configuration;
 
 namespace ServiceHost
 {
@@ -18,7 +21,7 @@ namespace ServiceHost
         {
             Configuration = configuration;
         }
-        //part 10 first name
+        
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services)
@@ -28,9 +31,11 @@ namespace ServiceHost
             DiscountManagementBootstrapper.Configure(services, connectionString);
             InventoryManagementBootstrapper.Configure(services, connectionString);
             BlogManagementBootstrapper.Configure(services,connectionString);
+            CommentManagementBootstrapper.Configure(services,connectionString);
 
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddRazorPages();
+            services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

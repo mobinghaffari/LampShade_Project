@@ -35,7 +35,52 @@
       "ProjectGuid": "fccf1dfc-dc79-4706-9392-b80cbe85fa7e",
       "DisplayName": "BlogManagement.Infrastructure.EFCore",
       "ColorIndex": 5
+    },
+    "998c4de4-b1a1-4a39-b999-7d57fabd9dff": {
+      "ProjectGuid": "998c4de4-b1a1-4a39-b999-7d57fabd9dff",
+      "DisplayName": "CommentManagement.domain",
+      "ColorIndex": 6
+    },
+    "fd722c52-5870-4757-b09a-9f392686d33d": {
+      "ProjectGuid": "fd722c52-5870-4757-b09a-9f392686d33d",
+      "DisplayName": "CommentManagement.Domain",
+      "ColorIndex": 7
+    },
+    "1995ba22-e879-47e9-86b0-034b84bdf1d8": {
+      "ProjectGuid": "1995ba22-e879-47e9-86b0-034b84bdf1d8",
+      "DisplayName": "CommentManagement.Application.Contracts",
+      "ColorIndex": 8
+    },
+    "eff62b22-cea6-4647-8f3c-9f2cefdab604": {
+      "ProjectGuid": "eff62b22-cea6-4647-8f3c-9f2cefdab604",
+      "DisplayName": "CommentManagement.Application",
+      "ColorIndex": 9
+    },
+    "2fbbdd0e-e2ea-4b27-972f-68f1953d363c": {
+      "ProjectGuid": "2fbbdd0e-e2ea-4b27-972f-68f1953d363c",
+      "DisplayName": "CommentManagement.Infrastructure.EFCore",
+      "ColorIndex": 10
+    },
+    "ab72def3-b594-472e-bedf-f5357957a44a": {
+      "ProjectGuid": "ab72def3-b594-472e-bedf-f5357957a44a",
+      "DisplayName": "0_Framework",
+      "ColorIndex": 11
+    },
+    "ad9f0e34-ad69-4038-b71f-d823cd50edfc": {
+      "ProjectGuid": "ad9f0e34-ad69-4038-b71f-d823cd50edfc",
+      "DisplayName": "ShopManagement.Domain",
+      "ColorIndex": 12
+    },
+    "bec939d0-74a9-412b-b977-be1a80687131": {
+      "ProjectGuid": "bec939d0-74a9-412b-b977-be1a80687131",
+      "DisplayName": "CommentManagement.Infrastructure.Configuration",
+      "ColorIndex": 13
+    },
+    "fc75662c-362c-4290-9e9f-435440ff173f": {
+      "ProjectGuid": "fc75662c-362c-4290-9e9f-435440ff173f",
+      "DisplayName": "ShopManagement.Infrastructure.EFCore",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 15
 }
