@@ -1,15 +1,17 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using _01_LampshadeQuery.Contracts.Article;
 using _01_LampshadeQuery.Contracts.ArticleCategory;
+using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Domain.ArticleAgg;
 using BlogManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace _01_LampshadeQuery.Query
 {
-    public class ArticleCategoryQuery:IArticleCategoryQuery
+    public class ArticleCategoryQuery : IArticleCategoryQuery
     {
         private readonly BlogContext _context;
 
@@ -18,11 +20,25 @@ namespace _01_LampshadeQuery.Query
             _context = context;
         }
 
+        public List<ArticleCategoryQueryModel> GetArticleCategories()
+        {
+            return _context.ArticleCategories
+                .Include(x => x.Articles)
+                .Select(x => new ArticleCategoryQueryModel
+                {
+                    Name = x.Name,
+                    Picture = x.Picture,
+                    PictureAlt = x.PictureAlt,
+                    PictureTitle = x.PictureTitle,
+                    Slug = x.Slug,
+                    ArticlesCount = x.Articles.Count
+                }).ToList();
+        }
+
         public ArticleCategoryQueryModel GetArticleCategory(string slug)
         {
-
-           var articleCategory= _context.ArticleCategories
-                .Include(x=>x.Articles)
+            var articleCategory = _context.ArticleCategories
+                .Include(x => x.Articles)
                 .Select(x => new ArticleCategoryQueryModel
                 {
                     Slug = x.Slug,
@@ -31,15 +47,17 @@ namespace _01_LampshadeQuery.Query
                     Picture = x.Picture,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
-                    KeyWords = x.KeyWords,
+                    Keywords = x.Keywords,
                     MetaDescription = x.MetaDescription,
                     CanonicalAddress = x.CanonicalAddress,
-                    ArticleCounts = x.Articles.Count,
+                    ArticlesCount = x.Articles.Count,
                     Articles = MapArticles(x.Articles)
-                }).FirstOrDefault(x=>x.Slug==slug);
-           if (!string.IsNullOrWhiteSpace(articleCategory.KeyWords))
-               articleCategory.KeyWordList = articleCategory.KeyWords.Split(",").ToList();
-           return articleCategory;
+                }).FirstOrDefault(x => x.Slug == slug);
+
+            if (!string.IsNullOrWhiteSpace(articleCategory.Keywords))
+                articleCategory.KeywordList = articleCategory.Keywords.Split(",").ToList();
+
+            return articleCategory;
         }
 
         private static List<ArticleQueryModel> MapArticles(List<Article> articles)
@@ -52,25 +70,8 @@ namespace _01_LampshadeQuery.Query
                 Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
-                PublishDate = x.PublishDate.ToFarsi()
+                PublishDate = x.PublishDate.ToFarsi(),
             }).ToList();
-
-        }
-
-        public List<ArticleCategoryQueryModel> GetArticleCategories()
-        {
-            return _context.ArticleCategories
-                .Include(x => x.Articles)
-                .Select(x => new ArticleCategoryQueryModel
-                {
-                    Name=x.Name,
-                    Picture = x.Picture,
-                    PictureAlt = x.PictureAlt,
-                    PictureTitle = x.PictureTitle,
-                    Slug = x.Slug,
-                    ArticleCounts = x.Articles.Count,
-
-                }).ToList();
         }
     }
-} 
+}

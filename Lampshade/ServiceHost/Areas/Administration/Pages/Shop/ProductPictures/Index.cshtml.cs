@@ -60,7 +60,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
         public IActionResult OnGetRemove(long id)
         {
             var result = _productPictureApplication.Remove(id);
-            if (result.IsSucceeded)
+            if (result.IsSuccedded)
                 return RedirectToPage("./Index");
 
             Message = result.Message;
@@ -70,7 +70,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
         public IActionResult OnGetRestore(long id)
         {
             var result = _productPictureApplication.Restore(id);
-            if (result.IsSucceeded)
+            if (result.IsSuccedded)
                 return RedirectToPage("./Index");
 
             Message = result.Message;

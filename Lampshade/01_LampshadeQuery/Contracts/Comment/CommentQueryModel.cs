@@ -7,7 +7,6 @@
         public string Message { get; set; }
         public string CreationDate { get; set; }
         public long ParentId { get; set; }
-        public string ParentName { get; set; }
-
+        public string parentName { get; set; }
     }
 }

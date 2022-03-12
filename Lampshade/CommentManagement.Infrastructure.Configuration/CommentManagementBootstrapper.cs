@@ -1,8 +1,8 @@
 ﻿using CommentManagement.Application;
 using CommentManagement.Application.Contracts.Comment;
 using CommentManagement.Domain.CommentAgg;
-using CommentManagement.Infrastructure.EFCore;
-using CommentManagement.Infrastructure.EFCore.Repository;
+using CommnetManagement.Infrastructure.EFCore;
+using CommnetManagement.Infrastructure.EFCore.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 

@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlogManagement.Application.Contracts\BlogManagement.Application.Contracts.csproj" />
-    <ProjectReference Include="..\BlogMangement.DOMAIN\BlogManagement.Domain.csproj" />
+    <ProjectReference Include="..\BlogManagement.Domain\BlogManagement.Domain.csproj" />
   </ItemGroup>
 
 </Project>

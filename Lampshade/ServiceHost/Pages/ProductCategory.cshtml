@@ -1,5 +1,4 @@
 ﻿@page "{id}"
-@using ShopManagement.Domain.ProductAgg
 @model ServiceHost.Pages.ProductCategoryModel
 @{
     ViewData["Title"] = Model.ProductCategory.Name;
@@ -25,6 +24,7 @@
         </div>
     </div>
 </div>
+
 <div class="page-content-area">
     <div class="container">
         <div class="row">
@@ -77,9 +77,9 @@
                                                         {
                                                             <div class="single-grid-product__label">
                                                                 <span class="sale">-@product.DiscountRate%</span>
-                                                            </div> 
+                                                            </div>
                                                         }
-                                                        <a asp-page="/Product"asp-route-id="@product.Slug">
+                                                        <a asp-page="/Product" asp-route-id="@product.Slug">
                                                             <img src="~/ProductPictures/@product.Picture" class="img-fluid"
                                                                  alt="@product.PictureAlt" title="@product.PictureTitle">
                                                         </a>
@@ -87,7 +87,7 @@
                                                     <div class="single-grid-product__content">
                                                         <div class="single-grid-product__category-rating">
                                                             <span class="category">
-                                                                <a asp-page="/ProductCategory"asp-route-id="@Model.ProductCategory.Slug">@Model.ProductCategory.Name</a>
+                                                                <a asp-page="/ProductCategory" asp-route-id="@Model.ProductCategory.Slug">@Model.ProductCategory.Name</a>
                                                             </span>
                                                             <span class="rating">
                                                                 <i class="ion-android-star active"></i>
@@ -99,7 +99,7 @@
                                                         </div>
 
                                                         <h2 class="single-grid-product__title">
-                                                            <a asp-page="/Product"asp-route-id="@product.Slug">@product.Name</a>
+                                                            <a asp-page="/Product" asp-route-id="@product.Slug">@product.Name</a>
                                                         </h2>
                                                         <p class="single-grid-product__price">
                                                             @if (product.HasDiscount)

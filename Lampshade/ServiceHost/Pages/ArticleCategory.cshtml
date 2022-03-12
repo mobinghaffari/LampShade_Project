@@ -99,7 +99,7 @@
                                             {
                                                 <li>
                                                     <a asp-page="./ArticleCategory" asp-route-id="@category.Slug" class="active">
-                                                        @category.Name <span class="counter">@category.ArticleCounts   </span>
+                                                        @category.Name <span class="counter">@category.ArticlesCount</span>
                                                     </a>
                                                 </li>
                                             }
@@ -113,7 +113,7 @@
                                             {
                                                 <div class="single-block d-flex">
                                                     <div class="image">
-                                                        <a asp-pa e="./Article" asp-route-id="@article.Slug">
+                                                        <a asp-page="./Article" asp-route-id="@article.Slug">
                                                             <img src="~/ProductPictures/@article.Picture"
                                                                  class="img-fluid" alt="@article.PictureAlt"
                                                                  title="@article.PictureTitle">
@@ -134,7 +134,7 @@
                                     <div class="single-sidebar-widget">
                                         <h4 class="single-sidebar-widget__title">تگ ها</h4>
                                         <ul class="single-sidebar-widget__tag-list">
-                                            @foreach (var tag in Model.ArticleCategory.KeyWordList)
+                                            @foreach (var tag in Model.ArticleCategory.KeywordList)
                                             {
                                                 <li>
                                                     <a asp-page="./Search" asp-route-value="@tag">@tag</a>

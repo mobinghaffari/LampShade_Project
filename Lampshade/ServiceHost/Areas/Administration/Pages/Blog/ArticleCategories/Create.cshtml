@@ -75,9 +75,9 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
-                    <label asp-for="KeyWords" class="control-label">کلمات کلیدی</label>
-                    <input type="text" class="form-control" asp-for="KeyWords">
-                    <span asp-validation-for="KeyWords" class="error"></span>
+                    <label asp-for="Keywords" class="control-label">کلمات کلیدی</label>
+                    <input type="text" class="form-control" asp-for="Keywords">
+                    <span asp-validation-for="Keywords" class="error"></span>
                 </div>
             </div>
         </div>
@@ -88,6 +88,15 @@
                     <textarea class="form-control autogrow" asp-for="MetaDescription"
                               style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
                     <span asp-validation-for="MetaDescription" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="CanonicalAddress" class="control-label">CanonicalAddress</label>
+                    <input type="text" class="form-control" asp-for="CanonicalAddress">
+                    <span asp-validation-for="CanonicalAddress" class="error"></span>
                 </div>
             </div>
         </div>

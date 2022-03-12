@@ -1,18 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Domain.ArticleAgg;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace BlogManagement.Infrastructure.EFCore.Repository
 {
-    public class ArticleRepository:RepositoryBase<long,Article>,IArticleRepository
+    public class ArticleRepository : RepositoryBase<long, Article>, IArticleRepository
     {
         private readonly BlogContext _context;
+
         public ArticleRepository(BlogContext context) : base(context)
         {
             _context = context;
@@ -22,7 +22,7 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
         {
             return _context.Articles.Select(x => new EditArticle
             {
-                Id=x.Id,
+                Id = x.Id,
                 CanonicalAddress = x.CanonicalAddress,
                 CategoryId = x.CategoryId,
                 Description = x.Description,
@@ -47,12 +47,14 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
             var query = _context.Articles.Select(x => new ArticleViewModel
             {
                 Id = x.Id,
+                CategoryId = x.CategoryId,
                 Category = x.Category.Name,
                 Picture = x.Picture,
                 PublishDate = x.PublishDate.ToFarsi(),
-                ShortDescription = x.ShortDescription.Substring(0,Math.Min(x.ShortDescription.Length,50))+"...",
+                ShortDescription = x.ShortDescription.Substring(0, Math.Min(x.ShortDescription.Length, 50)) + " ...",
                 Title = x.Title
             });
+
             if (!string.IsNullOrWhiteSpace(searchModel.Title))
                 query = query.Where(x => x.Title.Contains(searchModel.Title));
 
@@ -60,7 +62,6 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
                 query = query.Where(x => x.CategoryId == searchModel.CategoryId);
 
             return query.OrderByDescending(x => x.Id).ToList();
-
         }
     }
 }

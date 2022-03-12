@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {}
+    "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
+    "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[3.1.6, )"

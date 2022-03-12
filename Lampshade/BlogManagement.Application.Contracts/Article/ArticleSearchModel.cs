@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
-using BlogManagement.Application.Contracts.ArticleCategory;
-using Microsoft.EntityFrameworkCore;
+﻿using BlogManagement.Application.Contracts.ArticleCategory;
+using System.Collections.Generic;
 
 namespace BlogManagement.Application.Contracts.Article
 {

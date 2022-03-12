@@ -1,36 +1,26 @@
-﻿using System.Collections.Generic;
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using CommentManagement.Application.Contracts.Comment;
 using CommentManagement.Domain.CommentAgg;
+using System.Collections.Generic;
 
 namespace CommentManagement.Application
 {
-    public class CommentApplication:ICommentApplication
+    public class CommentApplication : ICommentApplication
     {
         private readonly ICommentRepository _commentRepository;
 
         public CommentApplication(ICommentRepository commentRepository)
         {
-            _commentRepository = commentRepository; 
+            _commentRepository = commentRepository;
         }
+
         public OperationResult Add(AddComment command)
         {
             var operation = new OperationResult();
-            var comment = new Comment(command.Name, command.Email, command.Message, command.OwnerRecordId,
-                command.Type,command.Website,command.ParentId);
+            var comment = new Comment(command.Name, command.Email, command.Website, command.Message, 
+                command.OwnerRecordId, command.Type, command.ParentId);
+
             _commentRepository.Create(comment);
-            _commentRepository.SaveChanges();
-            return operation.Succedded(); 
-        }
-
-        public OperationResult Confirm(long id)
-        {
-            var operation = new OperationResult();
-            var comment = _commentRepository.Get(id);
-            if (comment == null)
-                return operation.Failed(ApplicationMessages.RecordNotFound);
-            comment.Canceled();
-
             _commentRepository.SaveChanges();
             return operation.Succedded();
         }
@@ -41,8 +31,20 @@ namespace CommentManagement.Application
             var comment = _commentRepository.Get(id);
             if (comment == null)
                 return operation.Failed(ApplicationMessages.RecordNotFound);
-            comment.Confirmed(); 
 
+            comment.Cancel();
+            _commentRepository.SaveChanges();
+            return operation.Succedded();
+        }
+
+        public OperationResult Confirm(long id)
+        {
+            var operation = new OperationResult();
+            var comment = _commentRepository.Get(id);
+            if (comment == null)
+                return operation.Failed(ApplicationMessages.RecordNotFound);
+
+            comment.Confirm();
             _commentRepository.SaveChanges();
             return operation.Succedded();
         }

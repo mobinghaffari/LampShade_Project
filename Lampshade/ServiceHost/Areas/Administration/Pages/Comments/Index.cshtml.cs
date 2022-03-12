@@ -26,7 +26,7 @@ namespace ServiceHost.Areas.Administration.Pages.Comments
         public IActionResult OnGetCancel(long id)
         {
             var result = _commentApplication.Cancel(id);
-            if (result.IsSucceeded)
+            if (result.IsSuccedded)
                 return RedirectToPage("./Index");
 
             Message = result.Message;
@@ -36,7 +36,7 @@ namespace ServiceHost.Areas.Administration.Pages.Comments
         public IActionResult OnGetConfirm(long id)
         {
             var result = _commentApplication.Confirm(id);
-            if (result.IsSucceeded)
+            if (result.IsSuccedded)
                 return RedirectToPage("./Index");
 
             Message = result.Message;

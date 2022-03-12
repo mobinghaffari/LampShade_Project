@@ -1,8 +1,8 @@
-﻿using _01_LampshadeQuery.Contracts.ProductCategory;
+﻿using _01_LampshadeQuery;
+using _01_LampshadeQuery.Contracts.ArticleCategory;
+using _01_LampshadeQuery.Contracts.ProductCategory;
 using Microsoft.AspNetCore.Mvc;
 using System.Runtime.CompilerServices;
-using _01_LampshadeQuery;
-using _01_LampshadeQuery.Contracts.ArticleCategory;
 
 namespace ServiceHost.ViewComponents
 {
@@ -10,11 +10,10 @@ namespace ServiceHost.ViewComponents
     {
         private readonly IProductCategoryQuery _productCategoryQuery;
         private readonly IArticleCategoryQuery _articleCategoryQuery;
-
         public MenuViewComponent(IProductCategoryQuery productCategoryQuery, IArticleCategoryQuery articleCategoryQuery)
         {
-            _productCategoryQuery = productCategoryQuery;
             _articleCategoryQuery = articleCategoryQuery;
+            _productCategoryQuery = productCategoryQuery;
         }
 
         public IViewComponentResult Invoke()
@@ -22,7 +21,7 @@ namespace ServiceHost.ViewComponents
             var result = new MenuModel
             {
                 ArticleCategories = _articleCategoryQuery.GetArticleCategories(),
-                ProductCategories = _productCategoryQuery.GetProductCategories(),
+                ProductCategories = _productCategoryQuery.GetProductCategories()
             };
             return View(result);
         }

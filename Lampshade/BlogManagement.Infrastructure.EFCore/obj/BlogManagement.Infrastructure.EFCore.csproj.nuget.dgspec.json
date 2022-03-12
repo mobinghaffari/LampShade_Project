@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {}
+    "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
+    "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[3.1.6, )"
@@ -78,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+    "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
         "projectName": "BlogManagement.Application.Contracts",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogManagement.Application.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -108,8 +112,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -148,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+    "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj",
-        "projectName": "BlogManagement.Infrastructure.EFCore",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
+        "projectName": "BlogManagement.Domain",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogManagement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -178,8 +182,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogMangement.DOMAIN\\BlogManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogMangement.DOMAIN\\BlogManagement.Domain.csproj"
+              "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj"
+              },
+              "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -193,22 +200,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.13, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.13, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.13, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -228,14 +219,14 @@
         }
       }
     },
-    "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogMangement.DOMAIN\\BlogManagement.Domain.csproj": {
+    "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogMangement.DOMAIN\\BlogManagement.Domain.csproj",
-        "projectName": "BlogManagement.Domain",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogMangement.DOMAIN\\BlogManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj",
+        "projectName": "BlogManagement.Infrastructure.EFCore",
+        "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogMangement.DOMAIN\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -258,11 +249,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\0_Framework\\0_Framework.csproj"
-              },
-              "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\Atrya\\Lampshade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
+              "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\BlogManagement.Domain\\BlogManagement.Domain.csproj"
               }
             }
           }
@@ -276,6 +264,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-preview.6.20312.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0-preview.6.20312.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0-preview.6.20312.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,27 +1,34 @@
-﻿namespace _0_Framework.Application
+﻿using System;
+
+namespace _0_Framework.Application
 {
     public class OperationResult
     {
-        public bool IsSucceeded { get; set; }
+        public bool IsSuccedded { get; set; }
         public string Message { get; set; }
 
         public OperationResult()
         {
-            IsSucceeded = false;
+            IsSuccedded = false;
         }
 
         public OperationResult Succedded(string message = "عملیات با موفقیت انجام شد")
         {
-            IsSucceeded = true;
+            IsSuccedded = true;
             Message = message;
             return this;
         }
 
         public OperationResult Failed(string message)
         {
-            IsSucceeded = false;
+            IsSuccedded = false;
             Message = message;
             return this;
+        }
+
+        public OperationResult Failed(object passwordsNotMatch)
+        {
+            throw new NotImplementedException();
         }
     }
 }

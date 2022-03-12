@@ -6,19 +6,19 @@
       "DisplayName": "ServiceHost",
       "ColorIndex": 0
     },
-    "216d47d5-72ea-4fe3-86b9-5e219b158515": {
-      "ProjectGuid": "216d47d5-72ea-4fe3-86b9-5e219b158515",
-      "DisplayName": "ShopManagement.Configuration",
-      "ColorIndex": 1
-    },
     "2267cf82-f359-480d-a63b-79933fb5c56c": {
       "ProjectGuid": "2267cf82-f359-480d-a63b-79933fb5c56c",
       "DisplayName": "01_LampshadeQuery",
+      "ColorIndex": 1
+    },
+    "ab72def3-b594-472e-bedf-f5357957a44a": {
+      "ProjectGuid": "ab72def3-b594-472e-bedf-f5357957a44a",
+      "DisplayName": "0_Framework",
       "ColorIndex": 2
     },
-    "6572ed70-4399-4ba6-be5a-b87996394ab6": {
-      "ProjectGuid": "6572ed70-4399-4ba6-be5a-b87996394ab6",
-      "DisplayName": "BlogManagement.Infrastructure.Configuration",
+    "fc75662c-362c-4290-9e9f-435440ff173f": {
+      "ProjectGuid": "fc75662c-362c-4290-9e9f-435440ff173f",
+      "DisplayName": "ShopManagement.Infrastructure.EFCore",
       "ColorIndex": 3
     },
     "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
@@ -26,61 +26,36 @@
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
     },
-    "e046266c-24da-4a31-9666-9c20edc6cd2b": {
-      "ProjectGuid": "e046266c-24da-4a31-9666-9c20edc6cd2b",
-      "DisplayName": "BlogManagement.Domain",
+    "0de462b7-27d7-4670-9d79-d9f7f54254c7": {
+      "ProjectGuid": "0de462b7-27d7-4670-9d79-d9f7f54254c7",
+      "DisplayName": "InventoryMangement.Infrastructure.EFCore",
       "ColorIndex": 4
     },
-    "fccf1dfc-dc79-4706-9392-b80cbe85fa7e": {
-      "ProjectGuid": "fccf1dfc-dc79-4706-9392-b80cbe85fa7e",
-      "DisplayName": "BlogManagement.Infrastructure.EFCore",
+    "619e0edc-b2b4-49b9-ae81-c3932239ba1b": {
+      "ProjectGuid": "619e0edc-b2b4-49b9-ae81-c3932239ba1b",
+      "DisplayName": "DiscountManagement.Infrastructure.EFCore",
       "ColorIndex": 5
     },
-    "998c4de4-b1a1-4a39-b999-7d57fabd9dff": {
-      "ProjectGuid": "998c4de4-b1a1-4a39-b999-7d57fabd9dff",
-      "DisplayName": "CommentManagement.domain",
+    "4d1053df-2099-4e88-9bba-585f64448d81": {
+      "ProjectGuid": "4d1053df-2099-4e88-9bba-585f64448d81",
+      "DisplayName": "CommnetManagement.Infrastructure.EFCore",
       "ColorIndex": 6
     },
-    "fd722c52-5870-4757-b09a-9f392686d33d": {
-      "ProjectGuid": "fd722c52-5870-4757-b09a-9f392686d33d",
-      "DisplayName": "CommentManagement.Domain",
+    "479bae32-af39-4fd6-a6be-ef3b4ef2572b": {
+      "ProjectGuid": "479bae32-af39-4fd6-a6be-ef3b4ef2572b",
+      "DisplayName": "BlogManagement.Infrastructure.EFCore",
       "ColorIndex": 7
     },
-    "1995ba22-e879-47e9-86b0-034b84bdf1d8": {
-      "ProjectGuid": "1995ba22-e879-47e9-86b0-034b84bdf1d8",
-      "DisplayName": "CommentManagement.Application.Contracts",
+    "b365effd-7053-4f52-9f40-90bc722f9082": {
+      "ProjectGuid": "b365effd-7053-4f52-9f40-90bc722f9082",
+      "DisplayName": "AccountMangement.Infrastructure.EFCore",
       "ColorIndex": 8
     },
-    "eff62b22-cea6-4647-8f3c-9f2cefdab604": {
-      "ProjectGuid": "eff62b22-cea6-4647-8f3c-9f2cefdab604",
-      "DisplayName": "CommentManagement.Application",
+    "06f5cfe1-68b5-44a0-b479-1117e2149722": {
+      "ProjectGuid": "06f5cfe1-68b5-44a0-b479-1117e2149722",
+      "DisplayName": "AccountManagement.Application",
       "ColorIndex": 9
-    },
-    "2fbbdd0e-e2ea-4b27-972f-68f1953d363c": {
-      "ProjectGuid": "2fbbdd0e-e2ea-4b27-972f-68f1953d363c",
-      "DisplayName": "CommentManagement.Infrastructure.EFCore",
-      "ColorIndex": 10
-    },
-    "ab72def3-b594-472e-bedf-f5357957a44a": {
-      "ProjectGuid": "ab72def3-b594-472e-bedf-f5357957a44a",
-      "DisplayName": "0_Framework",
-      "ColorIndex": 11
-    },
-    "ad9f0e34-ad69-4038-b71f-d823cd50edfc": {
-      "ProjectGuid": "ad9f0e34-ad69-4038-b71f-d823cd50edfc",
-      "DisplayName": "ShopManagement.Domain",
-      "ColorIndex": 12
-    },
-    "bec939d0-74a9-412b-b977-be1a80687131": {
-      "ProjectGuid": "bec939d0-74a9-412b-b977-be1a80687131",
-      "DisplayName": "CommentManagement.Infrastructure.Configuration",
-      "ColorIndex": 13
-    },
-    "fc75662c-362c-4290-9e9f-435440ff173f": {
-      "ProjectGuid": "fc75662c-362c-4290-9e9f-435440ff173f",
-      "DisplayName": "ShopManagement.Infrastructure.EFCore",
-      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 15
+  "NextColorIndex": 10
 }
