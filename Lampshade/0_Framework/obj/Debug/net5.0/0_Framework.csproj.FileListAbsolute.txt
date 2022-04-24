@@ -25,3 +25,15 @@ C:\Users\Mobin\Desktop\InGesmat\LampShade_Project-a69f073b40753fb67d1f9da9a35a51
 C:\Users\Mobin\Desktop\InGesmat\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.dll
 C:\Users\Mobin\Desktop\InGesmat\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\Lampshade\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
 C:\Users\Mobin\Desktop\InGesmat\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.pdb
+C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.AssemblyReference.cache
+C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfoInputs.cache
+C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfo.cs
+C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.CoreCompileInputs.cache
+C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.dll
+C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
+C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.pdb
+C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\0_Framework\bin\Debug\net5.0\0_Framework.deps.json
+C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\0_Framework\bin\Debug\net5.0\0_Framework.dll
+C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\0_Framework\bin\Debug\net5.0\ref\0_Framework.dll
+C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\0_Framework\bin\Debug\net5.0\0_Framework.pdb

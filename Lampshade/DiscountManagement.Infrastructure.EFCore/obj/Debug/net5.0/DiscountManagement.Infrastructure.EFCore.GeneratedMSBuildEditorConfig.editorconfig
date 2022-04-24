@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DiscountManagement.Infrastructure.EFCore
-build_property.ProjectDir = C:\Users\Mobin\Desktop\InGesmat\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\Lampshade\DiscountManagement.Infrastructure.EFCore\
+build_property.ProjectDir = C:\Users\Mobin\Source\Repos\LampShade_Project\Lampshade\DiscountManagement.Infrastructure.EFCore\

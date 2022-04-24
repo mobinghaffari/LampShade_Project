@@ -1876,7 +1876,8 @@
           "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
           "Microsoft.AspNetCore.Http.Features": "3.1.6",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
-          "Microsoft.EntityFrameworkCore": "5.0.0-preview.6.20312.4"
+          "Microsoft.EntityFrameworkCore": "5.0.0-preview.6.20312.4",
+          "Newtonsoft.Json": "10.0.1"
         },
         "compile": {
           "bin/placeholder/0_Framework.dll": {}
@@ -3192,11 +3193,12 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "lJRi0pzs0pF1YLZe8ockXw9bdcfRWQjVA/TtWyKWk1CmWN6m5kHtnN3YY7RuKNnXUfLii7V2sKggJmWV+LX0CA==",
+      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3230,11 +3232,12 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "+dElTi3zMNejizgVGBP8tcAGf3KityCpi1W1s+lQFQoYx0LGMIXugcS9Q4khJJi3JLU3msqH/GutKrZxELn2EQ==",
+      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3268,11 +3271,12 @@
       ]
     },
     "System.ComponentModel/4.3.0": {
-      "sha512": "cb1b9OAEGEs4rX26pZi0cRV2K4ytnUyb2fUYw/Z6U2isB6GWyvE931alVOV/NEbgUfRmj2auJUBXwzJb0/hgZw==",
+      "sha512": "VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
       "type": "package",
       "path": "system.componentmodel/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3416,11 +3420,12 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "iP7ezUlw0AWrehJkJSp1/uAKTF5IRelqUCt9ol1OUjKA9vTjqpwUwoeEydBWYSIxxopsz/e7S1qQWzF7GzMNEw==",
+      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3454,11 +3459,12 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "MXG3xam9XUcXFapdUA2ekoxbtyboMsWg/vZGZSaOkzo0mKovnP4n4HtFSgItn5KBFEyjccnZ1tOgfSmTbtHgBg==",
+      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3807,11 +3813,12 @@
       ]
     },
     "System.Dynamic.Runtime/4.3.0": {
-      "sha512": "2e72DgE6xaFr+9Xa336NU8Fwps8uBIOO0BbLrqGsTjiswfzyBH4TKwQfE2qnFW7tmtq2JfAOr0x8ZriwGqVbdw==",
+      "sha512": "SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
       "type": "package",
       "path": "system.dynamic.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4341,11 +4348,12 @@
       ]
     },
     "System.Net.NameResolution/4.3.0": {
-      "sha512": "IXt/Kemmo7b18SDt5bkLU0cDPwyuD7mZx68Arr6yyf1V91rwG1CgawzwyNBoZibchYDeBtPDcjR0+ix98OZUCA==",
+      "sha512": "AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
       "type": "package",
       "path": "system.net.nameresolution/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5471,11 +5479,12 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "uSJmezGILA1ir5xVrLBzRPtM722JdlWvcmaXoNoE4hHnZDB4Wj6Sh5VkptVYSXYBiUwafi7TJ89rbGzeYJrdsA==",
+      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6644,21 +6653,19 @@
   },
   "packageFolders": {
     "C:\\Users\\Mobin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj",
+      "projectUniqueName": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj",
       "projectName": "InventoryMangement.Infrastructure.EFCore",
-      "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj",
+      "projectPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\InventoryMangement.Infrastructure.EFCore\\InventoryMangement.Infrastructure.EFCore.csproj",
       "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\InventoryMangement.Infrastructure.EFCore\\obj\\",
+      "outputPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\InventoryMangement.Infrastructure.EFCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6669,7 +6676,6 @@
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -6677,11 +6683,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-              "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+            "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
             },
-            "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+            "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
             }
           }
         }
@@ -6726,7 +6732,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }

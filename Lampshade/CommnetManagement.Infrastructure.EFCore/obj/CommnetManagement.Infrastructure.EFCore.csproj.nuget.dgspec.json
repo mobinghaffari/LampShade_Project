@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj": {}
+    "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj": {
+    "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj",
+        "projectPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,7 +25,6 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -61,6 +59,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0-preview.6.20312.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
             }
           },
           "imports": [
@@ -78,22 +80,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
+    "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj",
         "projectName": "CommentManagement.Application.Contracts",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj",
+        "projectPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommentManagement.Application.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommentManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,7 +105,6 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -112,8 +112,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -142,22 +142,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+    "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
         "projectName": "CommentManagement.Domain",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "projectPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommentManagement.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommentManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -168,7 +167,6 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -176,11 +174,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj"
+              "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -209,22 +207,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj": {
+    "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj",
         "projectName": "CommnetManagement.Infrastructure.EFCore",
-        "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj",
+        "projectPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\CommnetManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Mobin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommnetManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Mobin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -235,7 +232,6 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -243,8 +239,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mobin\\Desktop\\InGesmat\\LampShade_Project-a69f073b40753fb67d1f9da9a35a51e500e4a48f\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mobin\\Source\\Repos\\LampShade_Project\\Lampshade\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
               }
             }
           }
@@ -289,7 +285,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }
